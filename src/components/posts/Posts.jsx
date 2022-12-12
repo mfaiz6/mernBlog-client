@@ -1,9 +1,15 @@
 import './Posts.css'
+import Post from '../post/Post'
 
 const Posts = () => {
   return (
     <div className='posts'>
-      Posts
+      <Post />
+      <Post />
+      <Post />
+      <Post />
+      <Post />
+      <Post />
       </div>
   )
 }
