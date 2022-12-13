@@ -9,7 +9,7 @@ const Write = () => {
                 <label htmlFor="fileInput">
                     <i className='writeIcon fas fa-plus'></i>
                 </label>
-                <input type="file" id="fileInput" style={{display: 'none'}} />
+                <input type="file" accept="image/*" id="fileInput" style={{display: 'none'}} />
                 <input type="text" placeholder='Title' className='writeInput' autoFocus={true} />
             </div>
             <div className="writeFormGroup">
