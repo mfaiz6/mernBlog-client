@@ -17,12 +17,12 @@ const SinglePost = () => {
         }
         getPost()
     }, [path])
-
+    const PF = "http://localhost:5000/images/"
   return (
     <div className='singlePost'>
         <div className="singlePostWrapper">
             {post.photo &&
-            <img className='singlePostImg' src={post.photo} alt="" />
+            <img className='singlePostImg' src={PF + post.photo} alt="" />
             }
             <h1 className="singlePostTitle">
                 {post.title}
